@@ -353,7 +353,8 @@ td {
   color: #d70000;
 }
 #tablep {
-	width: 80%
+	width: 80%;
+	color: red;
 }
 .addeventstc {
 	margin: 10px;
