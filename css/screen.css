@@ -322,6 +322,9 @@ table, th, td {
 #protable {
   margin-bottom: 0;
 }
+#hwtable {
+  margin-left: 12.566em;
+}
 tr .firstrow {
 	border-right: none;
 	width: 75px;
@@ -348,10 +351,12 @@ td {
 }
 .redfont {
 	color: red;
+  margin-left: 12.566em;
 }
 .darkredfont {
   color: #d70000;
 }
+
 #tablep {
 	width: 80%
 }
@@ -364,7 +369,7 @@ td {
   width: 750px;
 }
 
-/* Policies */ 
+/* Policies */
 
 .indent {
   margin-left: 2em;
@@ -478,7 +483,7 @@ td {
     width: 42.5%;
     margin-right: 0;
   }
-  
+
   #essential-references {
     position: absolute;
     top: 0px;
@@ -499,10 +504,10 @@ td {
 .btn,.btn-group-justified>
 .btn-group{display:table-cell;float:none;width:1%}
 .btn-group-justified>
-.btn-group 
+.btn-group
 .btn{width:100%}
 .btn-group-justified>
-.btn-group 
+.btn-group
 .dropdown-menu{left:auto}[data-toggle=buttons]>
 .btn input[type=checkbox],[data-toggle=buttons]>
 .btn input[type=radio],[data-toggle=buttons]>
