@@ -265,6 +265,7 @@ nav {
   padding-left: 11.3208%;
   margin-bottom: 1.2631578947em;
 }
+/*PROJECTS 2 section CSS"*/
 #project-two
 {
   background-color: #8B3333;
@@ -416,6 +417,10 @@ td {
   }
   .nav a {
     padding: 0.6315789474em;
+  }
+  nav {
+    font-size: 17px;
+   
   }
 }
 
