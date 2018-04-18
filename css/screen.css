@@ -363,7 +363,8 @@ td {
 }
 
 #tablep {
-	width: 80%
+  width: 80%;
+  margin-left: 55px;
 }
 .addeventstc {
 	margin: 10px;
