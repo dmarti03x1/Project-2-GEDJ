@@ -265,6 +265,10 @@ nav {
   padding-left: 11.3208%;
   margin-bottom: 1.2631578947em;
 }
+#project-two
+{
+  background-color: #8B3333;
+}
 .assigned {
   background-color: rgba(180,168,119,.75);
   color: #333;
