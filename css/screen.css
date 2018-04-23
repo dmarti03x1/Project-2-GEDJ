@@ -410,6 +410,14 @@ td {
 /* Media Queries */
 
 /* @345px */
+@media screen and (max-width: 360px)
+{
+#hwtable
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+}
 
 @media screen and (min-width: 21.5625em) {
   /* Let the nav breathe a bit more */
