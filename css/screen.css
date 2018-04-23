@@ -412,6 +412,20 @@ td {
 /* @345px */
 @media screen and (max-width: 360px)
 {
+#navagation
+{
+	
+
+}
+#tablep
+{
+	font-size: 20px;
+}
+#rule
+{
+	width: 100%
+	
+}
 #hwtable
 {
 	margin-left: auto;
