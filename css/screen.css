@@ -117,6 +117,7 @@ h2 {
   font-size: 1.3440526316em; /* ~ 25.537px @ 19px/em */
   line-height: 0.9398128206em; /* ~ 24px @ 25.537px/em */
   padding-bottom: 0.9398128206em;
+  margin-left: -5px;
 }
 
 h3 {
@@ -152,6 +153,7 @@ nav {
 #links,
 #instructor {
   margin-top: 2.5263157895em;
+  margin-left: -5px
 }
 
 /* ========== Modules ========== */
@@ -183,9 +185,6 @@ small,
   text-transform: uppercase;
 }
 
-header {
-  margin-left: -35px;
-}
 /* Navigation */
 nav {
   font-weight: 200;
@@ -328,11 +327,17 @@ table, th, td {
   padding-top: 15px;
   border-left: none;
 }
+
+#contentTable {
+  margin-left: -5px;
+}
+
 #protable {
   margin-bottom: 0;
+  margin-left: -5px;
 }
 #hwtable {
-  margin-left: 12.566em;
+  margin-left: 14.2em;
 }
 tr .firstrow {
 	border-right: none;
@@ -368,8 +373,13 @@ td {
 
 #tablep {
   width: 80%;
-  text-align: center;
+  margin-left: 14.2em;
 }
+
+#rule {
+  margin-left: 14.2em;
+}
+
 .addeventstc {
 	margin: 10px;
 	margin-left: 30%;
@@ -424,7 +434,6 @@ td {
 #rule
 {
 	width: 100%
-
 }
 #hwtable
 {
