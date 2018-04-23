@@ -256,14 +256,19 @@ nav {
 }
 
 .preview {
-  background-color: #EF4566; /*PROJECTS PAGE BACKGROUND COLOR PINK DMARTI "PLEASE CHANGE"*/
-  color: #222;
+  background-color: #17496B; /*PROJECTS PAGE BACKGROUND COLOR PINK DMARTI "PLEASE CHANGE"*/
+  color: #B6C9DC;
   padding-top: 1.2631578947em;
   margin-right: -11.3208%; /* 60px / 530px (650-120) */
   padding-right: 11.3208%;
   margin-left: -11.3208%;
   padding-left: 11.3208%;
   margin-bottom: 1.2631578947em;
+}
+/*PROJECTS 2 section CSS"*/
+#project-two
+{
+  background-color: #8B3333;
 }
 .assigned {
   background-color: rgba(180,168,119,.75);
@@ -358,7 +363,8 @@ td {
 }
 
 #tablep {
-	width: 80%
+  width: 80%;
+  margin-left: 55px;
 }
 .addeventstc {
 	margin: 10px;
@@ -404,6 +410,24 @@ td {
 /* Media Queries */
 
 /* @345px */
+@media screen and (max-width: 360px)
+{
+
+#tablep
+{
+	width: 100%
+}
+#rule
+{
+	width: 100%
+
+}
+#hwtable
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+}
 
 @media screen and (min-width: 21.5625em) {
   /* Let the nav breathe a bit more */
@@ -412,6 +436,10 @@ td {
   }
   .nav a {
     padding: 0.6315789474em;
+  }
+  nav {
+    font-size: 17px;
+    font-weight: bold;
   }
 }
 
