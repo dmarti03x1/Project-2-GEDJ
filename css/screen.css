@@ -338,7 +338,7 @@ table, th, td {
   margin-left: -5px;
 }
 #hwtable {
-  margin-left: 10.49em;
+  margin-left: 14.2em;
 }
 tr .firstrow {
 	border-right: none;
@@ -374,11 +374,11 @@ td {
 
 #tablep {
   width: 80%;
-  margin-left: 10.49em;
+  margin-left: 14.2em;
 }
 
 #rule {
-  margin-left: 10.49em;
+  margin-left: 14.2em;
 }
 
 .addeventstc {
@@ -425,7 +425,7 @@ td {
 /* Media Queries */
 
 /* @1000px */
-@media screen and (max-width: 1000px)
+@media screen and (max-width: 2000px)
 {
 
 #tablep
@@ -443,18 +443,34 @@ td {
 }
 #rule
 {
+  margin-left: auto;
+	margin-right: auto;
 	width: 100%
 }
 #hwtable
 {
 	margin-left: auto;
 	margin-right: auto;
+  width: 100%
 }
+#protable
+{
+  margin-left: auto;
+	margin-right: auto;
+  width: 100%
+}
+#contentTable
+{
+  margin-left: auto;
+	margin-right: auto;
+  width: 100%
+}
+
 }
 
 /* @650px */
 
-@media screen and (min-width: 40.625em) {
+@media screen and (min-width: 150.625em) {
   html {
     padding: 0;
   }
