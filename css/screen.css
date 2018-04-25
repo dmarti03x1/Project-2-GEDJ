@@ -549,14 +549,13 @@ td {
 			left: -9999px;
 		}
 
-		tr { border: 1px solid #ccc; }
+		tr { border: 1px solid #59453C; }
 
 		td {
 			/* Behave  like a "row" */
 			border: none;
-			border-bottom: 1px solid #eee;
 			position: relative;
-			padding-left: 5%;
+
 		}
 
 		td:before {
@@ -566,7 +565,6 @@ td {
 			top: 6px;
 			left: 6px;
 			width: 45%;
-			padding-right: 10px;
 			white-space: nowrap;
 		}
 	}
