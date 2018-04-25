@@ -83,6 +83,9 @@ a {
 p {
   padding-bottom: 1.2631578947em;
 }
+li a:hover {
+    background-color: #3FACFF;
+}
 li {
   padding-bottom: 0.6315789474em; /* ~ 12px @ 19px/em */
 }
