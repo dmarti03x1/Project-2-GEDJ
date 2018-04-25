@@ -1,7 +1,7 @@
 # Project-2-GEDJ
 Project 2: Redesign this Website!
 
-#Task Analyses
+# Task Analyses
 Make course description as a separate page
 At home page move calendar to the top
 change color scheme
